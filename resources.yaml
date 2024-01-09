@@ -217,7 +217,12 @@ deployment:
       mem_limit_policy: soft
       mem_reserved_size: 1024
 
-
+  training-test-embo24:
+    count: 5
+    flavor: c1.c36m100d50
+    start: 2024-01-19
+    end: 2023-01-20
+    group: training-test-embo24
   training-ga-e:
     count: 3
     flavor: c1.c28m225d50
